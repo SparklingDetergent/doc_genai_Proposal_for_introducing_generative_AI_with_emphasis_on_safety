@@ -1,19 +1,37 @@
 # doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
 安全性を重視した生成AI導入の提案
 
-# 安全性を重視した生成AI導入の提案
-Proposal for introducing generative AI with emphasis on safety
-
-doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
-
 # 目次
-## 自己紹介
-## 実現したいこと
-## 導入のメリット
-## 提案例
-## ローカルLLMとクラウド型LLMの活用方法
-## 導入の流れ
-## 注目する技術
+- [自己紹介](#自己紹介)
+  - [来歴と興味](#来歴と興味)
+  - [最近の関心](#最近の関心)
+  - [過去の関心事](#過去の関心事)
+- [実現したいこと](#実現したいこと)
+  - [最も効果的なアプローチ](#最も効果的なアプローチ)
+- [導入のメリット](#導入のメリット)
+- [提案例](#提案例)
+  - [目的](#目的)
+  - [導入の課題](#導入の課題)
+  - [提案内容](#提案内容)
+  - [期待効果](#期待効果)
+  - [費用対効果](#費用対効果)
+  - [注意点](#注意点)
+  - [今後の展望](#今後の展望)
+- [ローカルLLMとクラウド型LLMの活用方法](#ローカルllmとクラウド型llmの活用方法)
+  - [用途別に分ける](#用途別に分ける)
+  - [ユーザー規模](#ユーザー規模)
+- [導入の流れ](#導入の流れ)
+  - [論点](#論点)
+  - [実施のメリット](#実施のメリット)
+  - [実施計画案](#実施計画案)
+  - [継続的な学習](#継続的な学習)
+- [注目する技術](#注目する技術)
+  - [ファインチューニング (Fine-Tuning)](#ファインチューニング-fine-tuning)
+  - [RAG (Retrieval-Augmented Generation)](#rag-retrieval-augmented-generation)
+  - [Long-Context LLMs (長文読解)](#long-context-llms-長文読解)
+  - [Vision-Language Model (VLM, 画像言語モデル)](#vision-language-model-vlm-画像言語モデル)
+  - [Agentic Workflow (ワークフロー)](#agentic-workflow-ワークフロー)
+  - [AI agent (エージェント)](#ai-agent-エージェント)
 
 ## 自己紹介
 
@@ -70,8 +88,6 @@ doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
 * 業務効率化、シャドーAIの防止、組織の柔軟性と先進性の表明、他組織との関係構築の4点が主なメリットである。
 * 生成AIへの関心の高まりを活かし、組織の魅力を高める手段として、生成AI導入を検討する。
 
-
-
 ## 提案例
 
 2025年2月の初期導入提案例（生成AI分野の進化を反映）
@@ -114,8 +130,6 @@ doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
 
 * Mac Mシリーズ 1台だけでも、利用したい人の間で利用可能になる可能性があります。
 
-
-
 ## ローカルLLMとクラウド型LLMの活用方法
 
 ### 1. 用途別に分ける
@@ -149,7 +163,7 @@ doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
 - 機密情報が含まれるタスクへの対応
 - 少数のユーザー群での利用
 
-## まとめ
+### まとめ
 ローカルLLMは、クラウド型LLMと併用することで、機密情報の取り扱いに関する安全性を確保しながら、多様なニーズに対応することができます。また、クラウド型LLMとローカルLLMのそれぞれの強みを活かしたハイブリッドアプローチにより、より柔軟で効率的な利用を実現することが可能です。
 
 
@@ -175,13 +189,9 @@ doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
 * **最新技術動向の把握:** 生成AI分野は急速に発展しているため、最新の技術動向を継続的に調査し、導入検討の材料とする。
 * **パートナー企業との連携:** 専門家やベンダーと連携し、効果的な導入方法や最適なプラットフォームを選定する。
 
-
-
-
-
 ## 注目する技術
 
-### 1. ファインチューニング (Fine-Tuning) (追加学習)
+### 1. ファインチューニング (Fine-Tuning)
 
 - **概要**: 事前学習済みのモデルを新たなデータセットでさらに学習させることで、特定のタスクに特化した性能を向上させる技術。
 - **必要なもの**: 
@@ -189,7 +199,7 @@ doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
     - **新たなデータセット**: 特定のタスクや業界に特化したテキストデータ。
     - **計算資源**: 大規模なデータセットを学習するために、GPUやTPUなどの高性能計算機が必要。
 
-### 2. RAG (Retrieval-Augmented Generation) (検索拡張生成)
+### 2. RAG (Retrieval-Augmented Generation)
 
 - **概要**: モデルがまだ知り得ない情報や知識を、外部の情報源（例えば、インターネット上の記事や書籍）から取得し、それらを基に生成を補完する技術。
 - **必要なもの**: 
