@@ -1,8 +1,3 @@
-I have retrieved the content of the README.md file. I will now proceed to add simple mermaid diagrams within the provided mermaid blocks.
-
-Here is the updated content with mermaid diagrams added:
-
-```markdown
 # 安全性を重視した生成AI導入の提案
 
 ```mermaid
