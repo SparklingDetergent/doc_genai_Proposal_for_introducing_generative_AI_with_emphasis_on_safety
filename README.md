@@ -1,0 +1,2 @@
+# doc_genai_Proposal_for_introducing_generative_AI_with_emphasis_on_safety
+安全性を重視した生成AI導入の提案
