@@ -53,7 +53,7 @@ graph TD;
 ## 生成AIと従来のPCツールの違い
 
 - 生成AIと従来のPCツールの根本的な違いについて、図表を交えて説明します。
-- これらの違いは、コンピュータとの相互作用の根本的な変化を示しています。従来のツールが「特定のタスクのための専用道具」であるのに対し、生成AIは「目的を理解して適応する知的なパートナー」と言えるでしょう。
+- これらの違いは、コンピュータとの相互作用の根本的な変化を示しています。従来のツールが「特定のタスクのための専用道具」であるのに対し、生成AIは「テキストによる汎用的な道具」と言えるでしょう。
 
 ### 根本的な違い
 
@@ -125,6 +125,15 @@ flowchart TD
         E[プログラミングIDE] -->|コード開発| E1[言語固有の機能]
     end
     
+    style A fill:#dfd,stroke:#333,stroke-width:2px
+    style B fill:#dfd,stroke:#333,stroke-width:2px
+    style C fill:#dfd,stroke:#333,stroke-width:2px
+    style D fill:#dfd,stroke:#333,stroke-width:2px
+    style E fill:#dfd,stroke:#333,stroke-width:2px
+
+```
+```mermaid
+flowchart TD
     subgraph "生成AI（LLM）"
         X[テキストプロンプト] --> Y[言語モデル]
         Y --> Z1[テキスト生成]
@@ -137,11 +146,6 @@ flowchart TD
     
     style X fill:#f9f,stroke:#333,stroke-width:2px
     style Y fill:#bbf,stroke:#333,stroke-width:4px
-    style A fill:#dfd,stroke:#333,stroke-width:2px
-    style B fill:#dfd,stroke:#333,stroke-width:2px
-    style C fill:#dfd,stroke:#333,stroke-width:2px
-    style D fill:#dfd,stroke:#333,stroke-width:2px
-    style E fill:#dfd,stroke:#333,stroke-width:2px
 
 ```
 
